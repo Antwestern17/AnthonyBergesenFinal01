@@ -11,7 +11,9 @@
 
     <!-- Header Section -->
     <header>
-       <div> <h1>Anthony Bergesen</h1> </div>
+       <div> 
+        <h1 id="site-header">Anthony Bergesen</h1> 
+    </div>
     </header>
 
     <!-- Main Content Area -->
@@ -19,7 +21,7 @@
         <section id="about">
             <h2>About Me</h2>
             <p>Hi, my name is Anthony Bergesen. First year student at Western, currently enrolled in software development with applied AI.</p>
-            <img src="brownkitties.webp" alt="Cute brown kitties">
+            <img src="images/brownkitties.webp" alt="Cute brown kitties">
         </section>
 
         <section id="services">
@@ -44,14 +46,16 @@
                 <li>Conditionals control the flow of the program based on certain conditions.</li>
                 <a href="https://google.com"> Visit google.com</a>
                 <br>
-                <button>Secrets</button>
+                <button id="secrets-button">Reveal Secrets</button>
                 <label for="user-input">
                 <br>
                 <input type="text">
                 <br>
-
-            </ul>
+<a href="favorites.html">
+    <button id="favorites-button">What I Enjoyed</button>
+</a>
         </section>
+        
     </main>
 
     <!-- Footer Section -->
@@ -60,6 +64,8 @@
     </footer>
 
     <!-- Link to an external JavaScript file for functionality -->
-    <script src="script.js"></script>
+    <script src="JS/script.js">
+       
+    </script>
 </body>
 </html>
