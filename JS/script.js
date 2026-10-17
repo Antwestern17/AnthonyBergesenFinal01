@@ -16,4 +16,7 @@ function changeButtonText() {
     }
 }
 
-secretsButton.addEventListener("click", changeButtonText);
+const themeToggleButton = document.querySelector(".theme-toggle");
+themeToggleButton.addEventListener("click", () => {
+    document.body.classList.toggle("night-mode");
+});

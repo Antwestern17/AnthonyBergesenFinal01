@@ -81,3 +81,13 @@ footer {
     border-top: 1px solid #e0e0e0;
 }
 
+body.night-mode,
+body.night-mode header h1,
+body.night-mode #about h2,
+body.night-mode #services h2,
+body.night-mode main,
+body.night-mode a,
+body.night-mode footer {
+    background-color: black;
+    color: purple;
+}
