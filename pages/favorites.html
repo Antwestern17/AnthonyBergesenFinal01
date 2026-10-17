@@ -14,4 +14,10 @@
                   I guess I would say the final so far is my favorite part. It really was a full circle moment, where all the things I learned came together.
             <a href="../index.html"><button>Back to Home</button></a>
         </main>
+ <script>
+      // The instant the favorites page opens, check if the homepage set night mode
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('night-mode');
+      }
+    </script>
     </body>
